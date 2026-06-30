@@ -1,0 +1,59 @@
+body {
+    background:  #1e6fd9;
+    justify-content: center;
+    padding: 100px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 600px;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: black;
+    margin-left: 300px;
+
+}
+
+h2 {
+    text-align: center;
+
+    }
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #1e6fd9;
+    color: white;
+    border-color: black;
+    border-style: groove;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-color: rgb(59, 58, 58)
+ }
+
+tr, td {
+    padding: 8px;
+    text-align: center;
+    border-style: groove;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: black;
+    padding: 5px;
+    cursor: pointer;
+}

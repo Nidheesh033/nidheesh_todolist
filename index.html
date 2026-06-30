@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>TO-DO LIST</h2>
+
+    <form id="todoForm">
+        Task<input placeholder="enter the task" type="text" id="task" required><br><br>
+        Priority<select id="priority" required >
+            <option>Select Priority</option>
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+        </select><br><br>
+
+        Due Date<input type="date" id="dueDate" required>
+        <button type="submit">Add Task</button>
+    </form><br><br>
+
+    <table border="3">
+        
+            <tr>
+                <th style="background-color: darkgray;">TASK</th>
+                <th style="background-color: darkgray;">PRIORITY</th>
+                <th style="background-color: darkgray;">DUE DATE</th>
+                <th style="background-color: darkgray;">STATUS</th>
+                <th style="background-color: darkgray;">ACTION</th>
+            </tr>
+        <tbody id="taskTable"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+    
